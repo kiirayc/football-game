@@ -93,7 +93,7 @@ CREATE TABLE TB_SAVE (
 - Dribbling automatically moves the ball with the player until shooting.
 - Tackling can steal the ball from the opponent.
 
-## Sources
+## 📚 Sources
 - Java 2D Tutorial: [RyiSnow Java Game Tutorial](https://www.youtube.com/watch?v=om59cwR7psI&list=PL_QPQmz5C6WUF-pOQDsbsKbaBZqXj4qSq)
 - Sprites created with: [Piskel](https://www.piskelapp.com/p/create/sprite/)
 - Tiles made using: [2D Tile Editor](https://drive.google.com/drive/folders/1cxKDCfIbPVpgRfRN6PLco8eoV0bPNPQI)
