@@ -4,8 +4,6 @@ A 2D top-down soccer (football) game built with Java Swing and AWT.
 Supports **two players** on the same keyboard, dribbling, tackling, shooting, and scoring goals.  
 Includes simple AI-controlled goalkeepers and collectible items.
 
----
-
 ## 🎮 Features
 - **Two-player local gameplay**
   - Player 1: WASD movement, F to shoot, SPACE to tackle
@@ -21,8 +19,6 @@ Includes simple AI-controlled goalkeepers and collectible items.
 - **AI Goalkeepers** that patrol their goal areas and block shots
 - **Save/Load game state** to a MySQL database (5 save slots)
 - **Title screen**, **pause screen**, and **in-game UI** (scoreboard, timers, messages)
-
----
 
 ## 🎯 Controls
 
@@ -53,8 +49,6 @@ Includes simple AI-controlled goalkeepers and collectible items.
 | Save Game  | F1      |
 | Exit Game  | ESC     |
 
----
-
 ## 📦 Requirements
 - **Java 8+**
 - **MySQL database** with a table named `TB_SAVE`:
@@ -72,8 +66,6 @@ CREATE TABLE TB_SAVE (
     RED_SCORE INT
 );
 ```
-
----
 
 ## 🚀 How to Run
 1. **Clone or download** the project:
@@ -93,8 +85,6 @@ CREATE TABLE TB_SAVE (
     javac -d bin src/main/*.java src/entity/*.java
     java -cp bin main.Main
     ```
-
----
 
 ## 📌 Notes
 - Game runs at 60 FPS.
